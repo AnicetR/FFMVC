@@ -13,9 +13,9 @@ class Messages extends \Prefab
 {
     public static $TYPES = array(
         'success',
-        'error',
+        'alert',
         'warning',
-        'message');
+        'info');
 
     final public static function init($sessionify = false)
     {
